@@ -1,0 +1,104 @@
+name: audio_testing_app
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  # Play Music files
+  just_audio: ^0.9.7
+  # Play Video files
+  video_player: ^2.1.14
+  # Obtain fonts for general use
+  google_fonts: ^2.1.0
+  # Obtain colors through Hexcodes
+  hexcolor: ^2.0.5
+  # Wrapper around InheritedWidget
+  provider: ^6.0.0
+  audio_video_progress_bar: ^0.9.0
+  bloc: ^7.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  assets:
+    - assets/audio/
+    
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  fonts:
+    - family: Neue Haas
+      fonts:
+       - asset: fonts/NeueHaasDisplayBlack.ttf
+       - asset: fonts/NeueHaasDisplayBlackItalic.ttf
+         style: italic
+       - asset: fonts/NeueHaasDisplayBold.ttf
+         weight: 700
+       - asset: fonts/NeueHaasDisplayBoldItalic.ttf
+         style: italic
+         weight: 700
+       - asset: fonts/NeueHaasDisplayLight.ttf
+       - asset: fonts/NeueHaasDisplayLightItalic.ttf
+         style: italic
+       - asset: fonts/NeueHaasDisplayMediu.ttf
+       - asset: fonts/NeueHaasDisplayMediumItalic.ttf
+         style: italic
+       - asset: fonts/NeueHaasDisplayRoman.ttf
+       - asset: fonts/NeueHaasDisplayRomanItalic.ttf
+         style: italic
+       - asset: fonts/NeueHaasDisplayThin.ttf
+       - asset: fonts/NeueHaasDisplayThinItalic.ttf
+         style: italic
+       - asset: fonts/NeueHaasDisplayXThin.ttf
+       - asset: fonts/NeueHaasDisplayXThinItalic.ttf
+         style: italic
+       - asset: fonts/NeueHaasDisplayXXThin.ttf
+       - asset: fonts/NeueHaasDisplayXXThinItalic.ttf
+         style: italic
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
