@@ -1,5 +1,5 @@
-import 'package:audio_testing_app/screens/category_selector.dart';
-import 'package:audio_testing_app/screens/just_audio_player.dart';
+//import 'package:audio_testing_app/screens/category_selector.dart';
+import 'package:audio_testing_app/screens/home_widget.dart';
 import 'package:audio_testing_app/services/audio_player_service.dart';
 import 'package:audio_testing_app/services/playlists/hardcoded_playlists_service.dart';
 import 'package:flutter/material.dart';
@@ -9,6 +9,7 @@ import 'package:audio_testing_app/styles/styles.dart';
 import 'package:audio_testing_app/screens/audio_player_streaming.dart';
 
 //Command to run: flutter run -d chrome --web-renderer html
+//Command to run: flutter run -d web-server
 
 void main() => runApp(MyApp());
 
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: "Web Player App Test - MusicStars Alpha's Alpha",
         debugShowCheckedModeBanner: false,
-        home: CategorySelector(),
+        home: Home(),
         theme: ThemeData(
           primaryColor: ThemeColors.colorBlack,
           textTheme: const TextTheme(

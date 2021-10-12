@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'commons/player_buttons_container.dart';
 import 'package:audio_testing_app/styles/styles.dart';
+import 'package:side_navigation/side_navigation.dart';
 
 /// A selector screen for categories of audio.
 ///
@@ -15,6 +16,7 @@ class CategorySelector extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Playlists", style: ThemeText.twentyEightBold),
+        backgroundColor: ThemeColors.colorBlack,
       ),
       body: Center(
         child: SafeArea(

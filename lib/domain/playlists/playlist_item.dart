@@ -17,7 +17,8 @@ class PlaylistItem {
   PlaylistItem({
     required this.author,
     required this.title,
-    this.artworkLocation = "https://via.placeholder.com/150",
+    this.artworkLocation =
+        "https://cors-anywhere.herokuapp.com/https://via.placeholder.com/150",
     required this.itemLocation,
   });
 }

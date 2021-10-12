@@ -40,6 +40,8 @@ dependencies:
   provider: ^6.0.0
   audio_video_progress_bar: ^0.9.0
   bloc: ^7.2.1
+  collapsible_sidebar: ^2.0.1+2
+  side_navigation: ^0.0.4
 
 dev_dependencies:
   flutter_test:
